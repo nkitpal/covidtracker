@@ -7,6 +7,7 @@ import { fetchData } from './api'
 import coronaImage from './images/COvid-19.png'
 
 
+
 class App extends Component{
 
     state = {
@@ -39,6 +40,11 @@ class App extends Component{
                 <Cards data={ data } />
                 <CountryPicker handleCountryChange={this.handleCountryChange} />
                 <Charts data={data} country={country}/>
+                <hr/>
+                <p>
+                    API:<a href="https://covid19.mathdro.id/api">https://covid19.mathdro.id/api</a><br/>
+                    Created by Ankit Pal
+                </p>
             </div>
         )
     }
