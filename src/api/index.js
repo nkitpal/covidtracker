@@ -16,7 +16,7 @@ export const fetchData = async (country) => {
 
     }
     catch(error){
-        console.log(error)
+        
     }
 
 }
