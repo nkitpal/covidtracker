@@ -43,15 +43,13 @@ class App extends Component{
                 <Cards data={ data } />
                 <CountryPicker handleCountryChange={this.handleCountryChange} />
                 <Charts data={data} country={country}/>
-                <List>
-                    <Divider/>
-                </List>
+                
                 <div className={styles.footer}>
                     <a href='https://covid19.mathdro.id/api' >Link to the API</a>
                     Created by Ankit Pal
                     <div>
-                    <a href ='https://github.com/nkitpal/covidtracker'><GitHubIcon /></a>
-                    <a href ='https://www.instagram.com/_nkitt/?hl=en'><InstagramIcon /></a>
+                        <a href ='https://github.com/nkitpal/covidtracker'><GitHubIcon /></a>
+                        <a href ='https://www.instagram.com/_nkitt/?hl=en'><InstagramIcon /></a>
                     </div>
                 </div>
             </div>

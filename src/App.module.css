@@ -15,6 +15,7 @@ body{
 }
 
 .footer{
+    font-family: hack;
     display: flex;
     justify-content: space-between;
     border-top:  1px ridge gray;
